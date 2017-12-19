@@ -11,7 +11,7 @@
       <div>
         <center><h2>Welcome User</h2><br>
         <h3>Your Current Blog Posts</h3><br>
-        <a class="waves-effect waves-light btn"><i class="material-icons left">edit</i>New Blog Post</a><br></center>
+        <a class="waves-effect waves-light btn" href="/createPost"><i class="material-icons left">edit</i>New Blog Post</a><br></center>
       </div>
       %for t in collection:
       <div class="row">
