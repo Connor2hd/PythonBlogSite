@@ -3,16 +3,16 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="stylesheet.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
    </head>
    <body>
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <h1>Welcome User</h1>
-      <br>
-      <h2>Your Blog Posts</h2>
-      <br>
-      <center><a class="waves-effect waves-light btn"><i class="material-icons left">edit</i>Create New Post</a></center>
+      <div>
+        <center><h2>Welcome User</h2><br>
+        <h3>Your Current Blog Posts</h3><br>
+        <a class="waves-effect waves-light btn"><i class="material-icons left">edit</i>New Blog Post</a><br></center>
+      </div>
       %for t in collection:
       <div class="row">
          <div class="col s12 m12">
