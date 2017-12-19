@@ -14,6 +14,13 @@ client = MongoClient('localhost', 27017)
 #set the database variable
 db = client.lab3
 
+#set the collection
+collection = db.posts
+
+# Create sample posts
+
+
+
 # Issue the serverStatus command and print the results
-serverStatusResult=db.command("serverStatus")
-pprint(serverStatusResult)
+#serverStatusResult=db.command("serverStatus")
+#pprint(serverStatusResult)
