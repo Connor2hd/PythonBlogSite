@@ -14,7 +14,7 @@ client = MongoClient('localhost', 27017)
 db = client.lab3
 
 #set the collection
-collection = db.collection
+collection = db.Posts
 
 # Create sample posts
 posts = [{"author": "Alex",
@@ -47,13 +47,4 @@ posts = [{"author": "Alex",
         ]}]
 
 #insert sample Posts
-db.collection.insert(posts)
-
-#load the template
-@route('/')
-def index():
-    p_list = collection.find({"author": "Alex"})
-    return template('home', {"collection": list(p_list)})
-
-#run on localhost
-run(host='localhost', port=8080)
+db.Posts.insert(posts)
