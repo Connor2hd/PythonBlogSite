@@ -11,4 +11,4 @@ The underlying development language used for this web application is Python.  Th
 ### Images
 Overview of the site.
 
-![Website](https://gyazo.com/86f87b1c90cda9ac18563a3990b7d8a2)
+![Website](https://i.gyazo.com/86f87b1c90cda9ac18563a3990b7d8a2.png)
